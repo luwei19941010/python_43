@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>css基础选择器</title>
+		<style>
+			a{
+				/*设置文本修饰*/
+				text-decoration: none;
+			}
+			input{
+				border: none;
+				outline: none;
+			}
+			#user{
+				border: 1px chartreuse solid;
+				height: 60px;
+				font-size: 20px;
+				padding: 0 10px;
+			}
+			.box{
+				width: 200px;
+				height: 200px;
+				background-color: #7FFF00;
+			}
+			.active{
+				border-radius: 0.25rem;
+			}
+			#box{
+				color: red;
+			}
+			div{
+				border: 1px solid #DC143C;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="box active" id="box">luwei</div>
+	<hr >
+	<div class="box">
+		luwei2
+	</div>
+	<hr>
+	<div class="box">luwei3</div>
+	<hr>
+	<a href="">百度一下</a>
+	<input type="text" id="user">
+	</body>
+</html>
